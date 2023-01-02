@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "title": "Lorem Ipsum",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut aliquam nisl. Phasellus rutrum velit risus. Sed a neque a massa suscipit interdum. Praesent sed orci porttitor, imperdiet elit et, luctus mi. Nunc lobortis aliquet tortor, eu placerat odio venenatis quis. Pellentesque mattis justo nec justo vestibulum, vel vulputate mi convallis. In vel tristique arcu, eu auctor odio. Mauris sit amet purus tellus. Aliquam a consequat ipsum. Ut accumsan mauris sit amet tempor pharetra. Maecenas feugiat lobortis felis et faucibus.",
+    "position": {
+      "row": 1,
+      "column": 1,
+      "width": 12,
+      "height": 2
+    }
+  },
+  {
+    "id": 2,
+    "type": "image",
+    "attributes": {
+      "src": "https://cataas.com/cat",
+      "alt": "a random cat picture",
+      "caption": "A random cat picture from CATAAS"
+    },
+    "position": {
+      "row": 3,
+      "column": 1,
+      "width": 5,
+      "height": 3
+    }
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "title": "Lorem Ipsum",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut aliquam nisl. Phasellus rutrum velit risus. Sed a neque a massa suscipit interdum. Praesent sed orci porttitor, imperdiet elit et, luctus mi. Nunc lobortis aliquet tortor, eu placerat odio venenatis quis. Pellentesque mattis justo nec justo vestibulum, vel vulputate mi convallis. In vel tristique arcu, eu auctor odio. Mauris sit amet purus tellus. Aliquam a consequat ipsum. Ut accumsan mauris sit amet tempor pharetra. Maecenas feugiat lobortis felis et faucibus.",
+    "position": {
+      "row": 3,
+      "column": 6,
+      "width": 8,
+      "height": 3
+    }
+  },
+  {
+    "id": 4,
+    "type": "quote",
+    "content": "The plural of anecdote is not data - Marc Bekoff",
+    "position": {
+      "row": 6,
+      "column": 10,
+      "width": 3,
+      "height": 1
+    }
+  },
+  {
+    "id": 5,
+    "type": "some unknown block type",
+    "content": "",
+    "position": {
+      "row": 7,
+      "column": 10,
+      "width": 3,
+      "height": 1
+    }
+  },
+  {
+    "id": 6,
+    "type": "table",
+    "attributes": {
+      "firstRowIsHeader": true
+    },
+    "content": [
+      ["Title 1", "Title 2", "Some Longer Title 3"],
+      ["Value 1", "Value 2", "Value 3"],
+      ["Value 4", "Value 5", "Value 6"],
+      ["Value 7", "Value 8", "Value 9"],
+      ["Value 10", "Value 11", "Value 12"]
+    ],
+    "position": {
+      "row": 6,
+      "column": 1,
+      "width": 9,
+      "height": 2
+    }
+  },
+  {
+    "id": 8,
+    "type": "html",
+    "title": "This is the title",
+    "collapsible": true,
+    "content": "<marquee>Marquees are so 1999</marquee>",
+    "position": {
+      "row": 8,
+      "column": 1,
+      "width": 6,
+      "height": 2
+    }
+  }
+]

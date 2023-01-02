@@ -1,0 +1,10 @@
+.table-block-container table { 
+	border-collapse: collapse; 
+}
+
+.table-block-container td,
+.table-block-container th {
+  text-align: left;
+  padding: 12px 16px;
+  border: 1px solid #ccc; 
+}
